@@ -10,4 +10,4 @@ RUN apk add --no-cache build-base gcc cmake git
 # Update the Ruby bundler and install jekyll
 RUN gem update bundler
 RUN gem install sass-embedded -v 1.63.6
-gem install bundler jekyll "jekyll:3.9.2"
+RUN gem install bundler jekyll "jekyll:3.9.2"
